@@ -1,0 +1,32 @@
+.nav {
+  // background-color: brown;
+  display: flex;
+  justify-content: space-between;
+  height: 4.125rem;
+
+  ul {
+    display: inline-flex;
+    align-items: center;
+    gap: 3.5rem;
+
+    li {
+      // background-color: blueviolet;
+      list-style: none;
+
+      a {
+        color: $colorContrasteClaro;
+        text-decoration: none;
+        font-size: 1.25rem;
+      }
+    }
+  }
+  &__logo {
+    display: flex;
+    align-items: center;
+    // background-color: aquamarine;
+    img {
+      width: 10.625rem;
+      align-self: flex-end;
+    }
+  }
+}

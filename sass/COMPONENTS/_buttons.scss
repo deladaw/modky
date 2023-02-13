@@ -1,0 +1,41 @@
+%boton {
+  color: $colorPrincipal;
+  padding: 0.75rem 1.875rem;
+  font-size: 1.3125rem;
+  text-transform: uppercase;
+  font-family: $fuenteHeadings;
+  font-weight: 300;
+  background-color: antiquewhite;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 0.1875rem;
+}
+
+.btn {
+  @extend %boton;
+}
+.btn-brown {
+  @extend %boton;
+  color: $colorContrasteClaro;
+  background-color: $colorPrincipal;
+}
+
+.btn-blue {
+  @extend %boton;
+  background-color: $colorAcento;
+}
+
+.btn-stroke-light {
+  @extend %boton;
+  color: $colorContrasteClaro;
+  border: 0.125rem solid $colorContrasteClaro;
+  background-color: transparent;
+  padding: 0.625rem 1.75rem;
+}
+.btn-stroke-brown {
+  @extend %boton;
+  color: $colorPrincipal;
+  border: 0.125rem solid $colorPrincipal;
+  background-color: transparent;
+  padding: 0.625rem 1.75rem;
+}

@@ -1,0 +1,51 @@
+.header {
+  font-size: 16px;
+  width: 100%;
+  background-color: $colorFondoNegro;
+  height: 80vh;
+  &__container {
+    margin: 0 auto;
+    max-width: $anchoPantalla;
+    width: 90%;
+  }
+
+  &__main {
+    justify-content: space-between;
+  }
+  &__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3.125rem;
+    padding: 0px 1.25rem;
+    height: 70vh;
+    width: 100%;
+    // background-color: blueviolet;
+    h1 {
+      font-weight: 200;
+      color: $colorContrasteClaro;
+    }
+  }
+
+  &__btns {
+    display: inline-flex;
+    gap: 2.5rem;
+  }
+
+  &__img {
+    padding-top: 1.25rem;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+    .img {
+      height: 80%;
+      width: 70%;
+      object-fit: contain;
+      background-position: top;
+      background-repeat: no-repeat;
+      background-image: url("/img/header/boy_playing_games.jpg");
+      box-shadow: inset 0.625rem 0.625rem 7.5rem 5rem #000000;
+    }
+  }
+}

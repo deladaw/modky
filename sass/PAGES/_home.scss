@@ -1,0 +1,78 @@
+.home {
+  width: 100%;
+
+  &__diy {
+    background: $colorFondoDegradado;
+    padding-bottom: 40px;
+  }
+
+  &__diy-container {
+    max-width: $anchoPantalla;
+    margin: 0 auto;
+
+    .grid {
+      justify-items: center;
+    }
+
+    .img {
+      width: 100%;
+      background-image: url("/img/diy/teclado-productos-diy.png");
+      background-repeat: no-repeat;
+      object-position: left;
+    }
+  }
+
+  .heading-secondary {
+    padding: 67px 10px;
+
+    h2 {
+      color: $colorContrasteClaro;
+      font-weight: 500;
+      margin-bottom: 10px;
+      span {
+        color: $colorPrincipal;
+      }
+    }
+
+    p {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__productos {
+    h2 {
+      font-weight: 500;
+      color: $colorPrincipal;
+      text-align: center;
+      padding: 6.25rem;
+    }
+    background-color: #aabdba;
+    padding-bottom: 10.625rem;
+    img {
+      width: 11.25rem;
+    }
+    &-container {
+      margin: 0 auto;
+
+      .col-4 {
+        width: 100%;
+      }
+    }
+    .grid__row {
+      margin-bottom: 100px;
+    }
+
+    .prod-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      background-color: $colorContrasteClaro;
+      max-width: 300px;
+      padding: 1.875rem;
+      border-radius: 0.5rem;
+      height: 18.75rem;
+    }
+  }
+}

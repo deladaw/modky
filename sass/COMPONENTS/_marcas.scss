@@ -1,0 +1,16 @@
+.marcas {
+  background-color: $colorPrincipal;
+  height: 11.25rem;
+  display: flex;
+
+  &__container {
+    width: 100%;
+    max-width: $anchoPantalla;
+    align-items: center;
+    margin: 0 auto;
+    justify-items: center;
+    img {
+      width: 10.625rem;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.footer {
+  background-color: $colorPrincipal;
+  color: $colorContrasteClaro;
+
+  &__pages {
+    padding-top: 115px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    li {
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: $colorContrasteClaro;
+      }
+    }
+  }
+}

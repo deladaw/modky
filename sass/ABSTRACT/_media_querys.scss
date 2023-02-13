@@ -1,0 +1,37 @@
+@media (max-width: 892px) {
+  .nav {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    background-color: aqua;
+
+    ul {
+      margin: 0 auto;
+    }
+  }
+  html {
+    font-size: 12px;
+  }
+
+  .prefabricados {
+    background-size: cover !important;
+  }
+
+  .newsletter {
+    .col-12-sm {
+      grid-column: span 12;
+    }
+  }
+
+  .home__diy-container {
+    .img {
+      grid-row: 2;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .marcas__container {
+    justify-items: center;
+  }
+}
